@@ -1,9 +1,9 @@
-
+import Crearprodu from "./secciones/Crearprodu";
 
 const Admi = () => {
     return (
         <div>
-         <h1>Desde administracion</h1>   
+         <Crearprodu/>
         </div>
     );
 };

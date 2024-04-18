@@ -9,21 +9,23 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
     <header>
       <NavBar/>
     </header>
      <main>
-<BrowserRouter>
+
 <Routes>
 <Route path="/"element={<Home/>} />
 <Route path="/Acercanos" element={<Acercanos/>}/>
 <Route path="/Admi" element={<Admi/>}/>
 </Routes>
-</BrowserRouter>
+
      </main>
      <footer>
       <Footer/>
      </footer>
+     </BrowserRouter>
     </>
     
     
